@@ -10,10 +10,9 @@
         <main>Section principale</main>
         <footer>Bas de page</footer>
       </body>
-      <script> window.webChatSettings ={
+      <!-- <script> window.webChatSettings ={
         id:"1ff0d6bb-cdff-43b3-9e4f-680f976a7406",
-        botId:"cd89a3d1-8450-4518-9a7c-90c8a84d7b69",
-        apiKey:"n7dlQjVn3Eh7xP0Cc9TkYbAha8SrwvbfouKEtWbgwmhVxBskbrQ6paBlE6kS",
+        
         color:"903163",
         background:"square3d",
         avatar:"https://app.virtualagentstudio.com/api/bot/cd89a3d1-8450-4518-9a7c-90c8a84d7b69/image",
@@ -42,5 +41,45 @@
           text:""}
           };
           !function () { function t() { var t = e.createElement("script"); t.type = "text/javascript", t.async = !0, t.src = "https://webchat.witivio.com/v2/init.js", t.onload = function () { witivioWebChat.load(window.webChatSettings) }; var n = e.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n) } var e = document, n = window; n.attachEvent ? n.attachEvent("onload", t) : n.addEventListener("load", t, !1) }();</script>
+        -->
+<script>
+  "use strict";
+  window.webchatV3Settings = {
+        color: "[COLOR]",
+        position: "right bottom 50px 25px",
+        avatar: "[URL]",
+        buttonDesign: {
+          shape: "square",
+          text: "",
+          height: "75px",
+          width: "75px",
+        },
+        menu: {
+          suggestion: false,
+          question: true,
+        },
+        displayMode: "close",
+        title: "[TITLE]",
+        slide: false,
+        animation: true,
+        skipContent: false,
+        callout: {
+          display: true,
+          capacity: false,
+          description: "",
+        },
+        autocomplete: true,
+        refresh: true,
+        hideSendBox: false,
+        apiKey: "n7dlQjVn3Eh7xP0Cc9TkYbAha8SrwvbfouKEtWbgwmhVxBskbrQ6paBlE6kS",
+        botId: "cd89a3d1-8450-4518-9a7c-90c8a84d7b69",
+      };
+var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t.src="https://webchat.virtualagentstudio.com/v3/static/js/main.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a);
+var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t.src="https://webchat.virtualagentstudio.com/v3/source/simple-update-in.production.min.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a);
+</script>
+
+<body>
+  <div class="vas-webchat" id="vas-webchat"></div>
+</body>
 </html>
 
